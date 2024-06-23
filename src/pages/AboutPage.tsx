@@ -5,7 +5,7 @@ const AboutPage = () => {
   return (
     <>
       <Navbar />
-      <div className="w-full px-10 py-5 flex justify-center items-center">
+      <div className="w-full px-0 md:px-10 py-5 flex justify-center items-center">
         <div className="flex flex-col gap-5 p-5 bg-[#00000090]">
           <small className="uppercase tracking-[3px]">About</small>
           <div className="flex flex-col md:flex-row gap-5">

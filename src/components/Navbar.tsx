@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="h-[10vh] bg-[#00000090]  flex justify-between items-center px-10">
+      <nav className="h-[10vh] max-w-full bg-[#00000090] flex justify-around items-center px-5">
         <Link to="/" className="text-primary font-black text-4xl">
           AT.
         </Link>
