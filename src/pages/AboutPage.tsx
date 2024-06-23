@@ -5,12 +5,12 @@ const AboutPage = () => {
   return (
     <>
       <Navbar />
-      <div className="md:absolute md:top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 w-full px-10 py-5 flex justify-center items-center">
+      <div className="w-full px-10 py-5 flex justify-center items-center">
         <div className="flex flex-col gap-5 p-5 bg-[#00000090]">
           <small className="uppercase tracking-[3px]">About</small>
           <div className="flex flex-col md:flex-row gap-5">
             <img
-              className="w-[300px] mx-auto md:m-0 rounded-xl"
+              className="w-[100%] h-auto md:w-[300px] md:h-[300px] mx-auto md:m-0 rounded-xl"
               src="/me.webp"
               alt="Aditya"
             />

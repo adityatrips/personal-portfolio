@@ -17,6 +17,11 @@
 
 body {
   @apply bg-black;
+  background-image: url("/landing.webp");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 small {

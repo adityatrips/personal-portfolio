@@ -31,7 +31,7 @@ const Navbar = () => {
             Contact
           </Link>
         </div>
-        <div className={isMenuOpen ? "hidden" : ""}>
+        <div className="md:hidden">
           <button onClick={handleMenu}>Menu</button>
         </div>
       </nav>

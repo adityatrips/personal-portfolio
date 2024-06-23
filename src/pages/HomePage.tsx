@@ -2,7 +2,7 @@ import LandingNavbar from "../components/LandingNavbar";
 
 const App = () => {
   return (
-    <div className="px-10 py-5 w-screen h-screen flex flex-col justify-center items-center md:items-start">
+    <div className="landing px-10 py-5 w-screen h-screen flex flex-col justify-center items-center md:items-start">
       <h1 className=" text-5xl text-center font-bold uppercase">
         Aditya Tripathi
       </h1>
@@ -17,30 +17,35 @@ const App = () => {
         <a
           className="text-2xl cursor-pointer hover:bg-primary size-10 flex justify-center items-center rounded-full transition-all duration-150 hover:text-black"
           href="https://x.com/adity04tripathi"
+          target="_blank"
         >
           <i className="fa-brands fa-x-twitter"></i>
         </a>
         <a
           className="text-2xl cursor-pointer hover:bg-primary size-10 flex justify-center items-center rounded-full transition-all duration-150 hover:text-black"
-          href=""
+          href="https://www.facebook.com/profile.php?id=61554203205503"
+          target="_blank"
         >
           <i className="fa-brands fa-facebook"></i>
         </a>
         <a
           className="text-2xl cursor-pointer hover:bg-primary size-10 flex justify-center items-center rounded-full transition-all duration-150 hover:text-black"
-          href=""
+          href="https://www.instagram.com/i_adityatripathi2412"
+          target="_blank"
         >
           <i className="fa-brands fa-instagram"></i>
         </a>
         <a
           className="text-2xl cursor-pointer hover:bg-primary size-10 flex justify-center items-center rounded-full transition-all duration-150 hover:text-black"
-          href=""
+          href="https://www.linkedin.com/in/aditya-tripathi-at04/"
+          target="_blank"
         >
           <i className="fa-brands fa-linkedin"></i>
         </a>
         <a
           className="text-2xl cursor-pointer hover:bg-primary size-10 flex justify-center items-center rounded-full transition-all duration-150 hover:text-black"
-          href=""
+          href="https://www.github.com/adityatrips"
+          target="_blank"
         >
           <i className="fa-brands fa-github"></i>
         </a>
