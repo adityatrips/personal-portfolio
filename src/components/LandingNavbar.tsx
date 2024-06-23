@@ -1,36 +1,38 @@
+import { Link } from "react-router-dom";
+
 const LandingNavbar = () => {
   return (
     <nav className="flex justify-center items-center gap-5 mb-5">
-      <a
+      <Link
         className="text-2xl cursor-pointer flex justify-center items-center rounded-lg transition-all duration-150 hover:text-primary px-2 py-1"
-        href="/"
+        to="/"
       >
         Home
-      </a>
-      <a
+      </Link>
+      <Link
         className="text-2xl cursor-pointer flex justify-center items-center rounded-lg transition-all duration-150 hover:text-primary px-2 py-1"
-        href="/about"
+        to="/about"
       >
         About
-      </a>
-      <a
+      </Link>
+      <Link
         className="text-2xl cursor-pointer flex justify-center items-center rounded-lg transition-all duration-150 hover:text-primary px-2 py-1"
-        href="/resume"
+        to="/resume"
       >
         Resume
-      </a>
-      <a
+      </Link>
+      <Link
         className="text-2xl cursor-pointer flex justify-center items-center rounded-lg transition-all duration-150 hover:text-primary px-2 py-1"
-        href="/portfolio"
+        to="/portfolio"
       >
         Portfolio
-      </a>
-      <a
+      </Link>
+      <Link
         className="text-2xl cursor-pointer flex justify-center items-center rounded-lg transition-all duration-150 hover:text-primary px-2 py-1"
-        href="/contact"
+        to="/contact"
       >
         Contact
-      </a>
+      </Link>
     </nav>
   );
 };

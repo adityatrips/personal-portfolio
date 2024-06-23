@@ -16,7 +16,7 @@ const App = () => {
       <div className="flex justify-center items-center gap-5">
         <a
           className="text-2xl cursor-pointer hover:bg-primary size-10 flex justify-center items-center rounded-full transition-all duration-150 hover:text-black"
-          href=""
+          href="https://x.com/adity04tripathi"
         >
           <i className="fa-brands fa-x-twitter"></i>
         </a>

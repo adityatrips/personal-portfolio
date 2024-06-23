@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,25 +11,25 @@ const Navbar = () => {
   return (
     <>
       <nav className="h-[10vh] bg-[#00000090]  flex justify-between items-center px-10">
-        <a href="/" className="text-primary font-black text-4xl">
+        <Link to="/" className="text-primary font-black text-4xl">
           AT.
-        </a>
+        </Link>
         <div className="md:flex gap-5 hidden">
-          <a className="animated-underline" href="/">
+          <Link className="animated-underline" to="/">
             Home
-          </a>
-          <a className="animated-underline" href="/about">
+          </Link>
+          <Link className="animated-underline" to="/about">
             About
-          </a>
-          <a className="animated-underline" href="/resume">
+          </Link>
+          <Link className="animated-underline" to="/resume">
             Resume
-          </a>
-          <a className="animated-underline" href="/portfolio">
+          </Link>
+          <Link className="animated-underline" to="/portfolio">
             Portfolio
-          </a>
-          <a className="animated-underline" href="/contact">
+          </Link>
+          <Link className="animated-underline" to="/contact">
             Contact
-          </a>
+          </Link>
         </div>
         <div className={isMenuOpen ? "hidden" : ""}>
           <button onClick={handleMenu}>Menu</button>
@@ -44,21 +45,21 @@ const Navbar = () => {
             <button onClick={handleMenu}>Menu</button>
           </div>
           <div className="gap-5 flex flex-col items-center justify-center">
-            <a className="animated-underline" href="/">
+            <Link className="animated-underline" to="/">
               Home
-            </a>
-            <a className="animated-underline" href="/about">
+            </Link>
+            <Link className="animated-underline" to="/about">
               About
-            </a>
-            <a className="animated-underline" href="/resume">
+            </Link>
+            <Link className="animated-underline" to="/resume">
               Resume
-            </a>
-            <a className="animated-underline" href="/portfolio">
+            </Link>
+            <Link className="animated-underline" to="/portfolio">
               Portfolio
-            </a>
-            <a className="animated-underline" href="/contact">
+            </Link>
+            <Link className="animated-underline" to="/contact">
               Contact
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -9,9 +9,9 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route element={<AnimationLayout />}>
+          <Route path="*" element={<FourZeroFour />} />
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="*" element={<FourZeroFour />} />
         </Route>
       </Routes>
     </BrowserRouter>
