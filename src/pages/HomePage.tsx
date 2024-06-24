@@ -1,6 +1,28 @@
 import LandingNavbar from "../components/LandingNavbar";
+import useMetadata from "../hooks/useMetadata";
 
 const App = () => {
+  useMetadata({
+    title: "Aditya Tripathi | Full-stack Web Developer",
+    description:
+      "I am a passionate full-stack web, and flutter developer. I love to build web applications and mobile applications.",
+    author: "Aditya Tripathi",
+    url: "https://adityatripathi.vercel.app/",
+    keywords: [
+      "Aditya Tripathi",
+      "Aditya",
+      "Tripathi",
+      "full-stack web developer",
+      "flutter developer",
+      "web developer",
+      "mobile developer",
+      "web applications",
+      "mobile applications",
+      "ios developer",
+      "android developer",
+    ],
+  });
+
   return (
     <div className="landing px-10 py-5 w-screen h-screen flex flex-col justify-center items-center md:items-start">
       <h1 className=" text-5xl text-center font-bold uppercase">

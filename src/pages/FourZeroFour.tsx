@@ -1,6 +1,22 @@
 import { Link } from "react-router-dom";
+import useMetadata from "../hooks/useMetadata";
 
 const FourZeroFour = () => {
+  useMetadata({
+    author: "Aditya Tripathi",
+    description:
+      "The page you are looking for might have be on a vacation, let it have the time of it's life.",
+    keywords: [
+      "404",
+      "page not found",
+      "not found",
+      "vacation",
+      "time of it's life",
+    ],
+    title: "Aditya Tripathi | 404",
+    url: "https://adityatripathi.vercel.app/",
+  });
+
   return (
     <div className="w-screen px-10 h-screen flex flex-col justify-center items-center">
       <div className="flex flex-col md:flex-row md:items-baseline mb-5">

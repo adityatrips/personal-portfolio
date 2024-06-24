@@ -1,7 +1,29 @@
 import Navbar from "../components/Navbar";
 import ProgressBar from "../components/ProgressBar";
+import useMetadata from "../hooks/useMetadata";
 
 const AboutPage = () => {
+  useMetadata({
+    title: "Aditya Tripathi | About",
+    description:
+      "I am a passionate full-stack web, and flutter developer. I love to build web applications and mobile applications.",
+    author: "Aditya Tripathi",
+    keywords: [
+      "Aditya Tripathi",
+      "Aditya",
+      "Tripathi",
+      "full-stack web developer",
+      "flutter developer",
+      "web developer",
+      "mobile developer",
+      "web applications",
+      "mobile applications",
+      "ios developer",
+      "android developer",
+    ],
+    url: "https://adityatripathi.vercel.app/about",
+  });
+
   return (
     <>
       <Navbar />
