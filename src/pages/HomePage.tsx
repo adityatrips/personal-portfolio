@@ -28,7 +28,7 @@ const App = () => {
       <h1 className="text-3xl md:text-5xl text-center font-bold uppercase">
         Aditya Tripathi
       </h1>
-      <p className="text-center text-lg md:text-xl mb-10">
+      <p className="text-center md:text-xl mb-10">
         I am a passionate
         <span className="font-bold text-primary">
           &nbsp;full-stack web, and flutter developer.
