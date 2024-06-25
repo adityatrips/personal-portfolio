@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage";
 import AnimationLayout from "./AnimationLayout";
 import FourZeroFour from "./pages/FourZeroFour";
 import AboutPage from "./pages/AboutPage";
+import EzAmizonePrivacyPolicy from "./pages/EzAmizonePrivacyPolicy";
 
 const App = () => {
   return (
@@ -12,6 +13,10 @@ const App = () => {
           <Route path="*" element={<FourZeroFour />} />
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route
+            path="/ezamizone-privacy-policy"
+            element={<EzAmizonePrivacyPolicy />}
+          />
         </Route>
       </Routes>
     </BrowserRouter>

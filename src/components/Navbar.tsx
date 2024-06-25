@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { ReactSVG } from "react-svg";
+import MenuIcon from "/bars.svg";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="h-[10vh] max-w-full bg-[#00000090] flex justify-around items-center px-5">
+      <nav className="h-[10vh] max-w-full bg-[#00000090] flex justify-between items-center px-5">
         <Link to="/" className="text-primary font-black text-4xl">
           AT.
         </Link>
@@ -32,7 +34,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="md:hidden">
-          <button onClick={handleMenu}>Menu</button>
+          <div onClick={handleMenu} className="cursor-pointer fa fa-bars"></div>
         </div>
       </nav>
       <div
@@ -42,7 +44,10 @@ const Navbar = () => {
       >
         <div className="flex justify-center items-center px-10 h-screen">
           <div className={`fixed top-5 right-5 ${!isMenuOpen ? "hidden" : ""}`}>
-            <button onClick={handleMenu}>Menu</button>
+            <div
+              onClick={handleMenu}
+              className="cursor-pointer fa fa-bars"
+            ></div>
           </div>
           <div className="gap-5 flex flex-col items-center justify-center">
             <Link className="animated-underline" to="/">
