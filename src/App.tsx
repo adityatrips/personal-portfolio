@@ -17,6 +17,7 @@ const App = () => {
             path="/ezamizone-privacy-policy"
             element={<EzAmizonePrivacyPolicy />}
           />
+          <Route path="*" element={<FourZeroFour />} />
         </Route>
       </Routes>
     </BrowserRouter>
