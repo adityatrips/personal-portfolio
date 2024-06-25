@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FaBars } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -32,7 +33,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="md:hidden">
-          <div onClick={handleMenu} className="cursor-pointer fa fa-bars"></div>
+          <FaBars onClick={handleMenu} className="cursor-pointer" />
         </div>
       </nav>
       <div
@@ -42,10 +43,7 @@ const Navbar = () => {
       >
         <div className="flex justify-center items-center px-10 h-screen">
           <div className={`fixed top-5 right-5 ${!isMenuOpen ? "hidden" : ""}`}>
-            <div
-              onClick={handleMenu}
-              className="cursor-pointer fa fa-bars"
-            ></div>
+            <FaBars onClick={handleMenu} className="cursor-pointer" />
           </div>
           <div className="gap-5 flex flex-col items-center justify-center">
             <Link className="animated-underline" to="/">

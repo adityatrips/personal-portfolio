@@ -1,6 +1,14 @@
 import LandingNavbar from "../components/LandingNavbar";
 import useMetadata from "../hooks/useMetadata";
 
+import {
+  FaGithub,
+  FaXTwitter,
+  FaLinkedin,
+  FaFacebook,
+  FaInstagram,
+} from "react-icons/fa6";
+
 const App = () => {
   useMetadata({
     title: "Aditya Tripathi | Full-stack Web Developer",
@@ -38,43 +46,43 @@ const App = () => {
       <div className="flex justify-center items-center gap-5">
         <a
           aria-label="Visit my Twitter profile"
-          className="text-2xl cursor-pointer hover:bg-primary size-10 flex justify-center items-center rounded-full transition-all duration-150 hover:text-black"
+          className="text-2xl cursor-pointer hover:bg-primary size-10 flex justify-center items-center rounded-full transition-all duration-150"
           href="https://x.com/adity04tripathi"
           target="_blank"
         >
-          <i className="fa-brands fa-x-twitter"></i>
+          <FaXTwitter />
         </a>
         <a
           aria-label="Visit my Facebook profile"
-          className="text-2xl cursor-pointer hover:bg-primary size-10 flex justify-center items-center rounded-full transition-all duration-150 hover:text-black"
+          className="text-2xl cursor-pointer hover:bg-primary size-10 flex justify-center items-center rounded-full transition-all duration-150"
           href="https://www.facebook.com/profile.php?id=61554203205503"
           target="_blank"
         >
-          <i className="fa-brands fa-facebook"></i>
+          <FaFacebook />
         </a>
         <a
           aria-label="Visit my Instagram profile"
-          className="text-2xl cursor-pointer hover:bg-primary size-10 flex justify-center items-center rounded-full transition-all duration-150 hover:text-black"
+          className="text-2xl cursor-pointer hover:bg-primary size-10 flex justify-center items-center rounded-full transition-all duration-150"
           href="https://www.instagram.com/i_adityatripathi2412"
           target="_blank"
         >
-          <i className="fa-brands fa-instagram"></i>
+          <FaInstagram />
         </a>
         <a
           aria-label="Visit my LinkedIn profile"
-          className="text-2xl cursor-pointer hover:bg-primary size-10 flex justify-center items-center rounded-full transition-all duration-150 hover:text-black"
+          className="text-2xl cursor-pointer hover:bg-primary size-10 flex justify-center items-center rounded-full transition-all duration-150"
           href="https://www.linkedin.com/in/aditya-tripathi-at04/"
           target="_blank"
         >
-          <i className="fa-brands fa-linkedin"></i>
+          <FaLinkedin />
         </a>
         <a
           aria-label="Visit my GitHub profile"
-          className="text-2xl cursor-pointer hover:bg-primary size-10 flex justify-center items-center rounded-full transition-all duration-150 hover:text-black"
+          className="text-2xl cursor-pointer hover:bg-primary size-10 flex justify-center items-center rounded-full transition-all duration-150"
           href="https://www.github.com/adityatrips"
           target="_blank"
         >
-          <i className="fa-brands fa-github"></i>
+          <FaGithub />
         </a>
       </div>
     </div>
