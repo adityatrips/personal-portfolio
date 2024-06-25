@@ -10,9 +10,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           "framer-motion": ["framer-motion"],
-          react: ["react"],
-          "react-dom": ["react-dom"],
-          "react-router-dom": ["react-router-dom"],
+          react: ["react", "react-dom", "react-router-dom"],
         },
       },
     },
