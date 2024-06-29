@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const LandingNavbar = () => {
   return (
-    <nav className="flex flex-row gap-5 mb-5">
+    <nav className="flex flex-row md:gap-5 mb-5 flex-wrap justify-center">
       <Link
         className="md:text-2xl animated-underline cursor-pointer flex justify-center items-center rounded-lg transition-all duration-150 hover:text-primary px-2 py-1"
         to="/"

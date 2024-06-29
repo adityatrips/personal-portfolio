@@ -43,7 +43,7 @@ const App = () => {
         </span>
       </p>
       <LandingNavbar />
-      <div className="flex justify-center items-center gap-5">
+      <div className="flex justify-center items-center md:gap-5 flex-wrap">
         <a
           aria-label="Visit my Twitter profile"
           className="text-2xl cursor-pointer hover:bg-primary size-10 flex justify-center items-center rounded-full transition-all duration-150"
