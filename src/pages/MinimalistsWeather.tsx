@@ -16,7 +16,7 @@ const MinimalistsWeatherPrivacyPolicy = () => {
 				Privacy Policy for Minimalist's Weather
 			</h1>
 			<p className="mb-2">
-				<strong>Effective Date:</strong> 26<sup>th</sup> June 2024
+				<strong>Effective Date:</strong> 9<sup>th</sup> July 2024
 			</p>
 			<h2 className="text-2xl font-bold mt-6 mb-2">
 				Welcome to Minimalist's Weather!
